@@ -1,11 +1,30 @@
-<div align="center">
+# Social Media Auto Pilot (AutoSocial)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Social Media Auto Pilot** is a powerful automation tool designed to help content creators cross-post their YouTube videos and Shorts to multiple social media platforms including TikTok, Instagram, Facebook, and X (Twitter).
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Automated Syncing**: Automatically fetch your latest YouTube videos and Shorts.
+- **Multi-Platform Support**: Cross-post to TikTok, Instagram, Facebook, and X.
+- **Advanced Content Management**: Manually manage posting status, edit titles, descriptions, and tags before publishing.
+- **AI-Powered Captions**: Use Google Gemini AI to generate optimized captions for each social platform.
+- **Automation Rules**: Configure posting intervals, daily limits, and active hours.
+- **Modern Dashboard**: Track your performance with real-time statistics and activity logs.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- **Frontend**: React, Tailwind CSS, Lucide Icons, Framer Motion.
+- **Backend**: Node.js, Express.
+- **Database**: SQLite (better-sqlite3).
+- **AI**: Google Gemini API.
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Configure your `GEMINI_API_KEY` in the environment variables.
+4. Run the development server: `npm run dev`.
+
+## License
+
+MIT
